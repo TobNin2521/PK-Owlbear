@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "manifest_version": 1,
   "action": {
-    "title": "Hello, World!",
-    "icon": "/logo192.png",
+    "title": "PK Owlbear",
+    "icon": "/icon.svg",
     "popover": "/",
     "height": 600,
     "width": 400
