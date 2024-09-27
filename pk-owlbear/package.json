@@ -2,7 +2,7 @@
   "name": "pk-owlbear",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tobnin2521.github.io/PK-Owlbear",
+  "homepage": "https://tobnin2521.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
