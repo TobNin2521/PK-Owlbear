@@ -1,6 +1,8 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "PK Owlbear",
+  "version": "1.0.0",
+  "manifest_version": 1,
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,6 +20,13 @@
       "sizes": "512x512"
     }
   ],
+  "action": {
+    "title": "Hello, World!",
+    "icon": "/logo192.png",
+    "popover": "/",
+    "height": 600,
+    "width": 400
+  },
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
