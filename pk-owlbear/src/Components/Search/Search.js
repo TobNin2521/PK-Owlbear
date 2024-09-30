@@ -19,8 +19,10 @@ export const Search = () => {
     };
 
     const onResultClick = (result) => {
+        localStorage.setItem("r", result.route);
+        localStorage.setItem("s", result.slug);
         OBR.modal.open({
-            id: "rodeo.owlbear.pk-owlbear/detail?r=" + result.route.substr(0, result.route.length - 2) + "&s=" + result.slug,
+            id: "rodeo.owlbear.pk-owlbear/detail",
             url: "/detail",
             height: 300,
             width: 400,
