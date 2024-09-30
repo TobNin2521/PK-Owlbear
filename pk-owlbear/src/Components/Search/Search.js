@@ -23,7 +23,7 @@ export const Search = () => {
         localStorage.setItem("s", result.slug);
         OBR.modal.open({
             id: "rodeo.owlbear.pk-owlbear/detail",
-            url: "/detail",
+            url: "/#/detail",
             height: 300,
             width: 400,
         });

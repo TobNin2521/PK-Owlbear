@@ -9,7 +9,7 @@ export const App = () => {
       <Routes>
         <Route path='/search' element={<Search />} />
         <Route path='/detail' element={<Detail />} />
-        <Route path='/' element={<Search />} />
+        <Route path='/search' element={null} />
       </Routes>
     </div>
   );

@@ -10,6 +10,7 @@ export const Detail = () => {
         <div>
             {localStorage.getItem("r")}
             {localStorage.getItem("s")}
+            Hallo
         </div>
     )
 };
