@@ -1,0 +1,23 @@
+.search-result {
+    width: calc(100% - 1em);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: .5em;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+.result-info {
+    display: flex;
+    flex-direction: column;    
+    width: calc(100% - 4em);
+}
+.name {
+    font-size: 1.2em;    
+}
+.source {
+    font-size: .75em;
+}
+.search-result svg {
+    height: 2em;
+}
