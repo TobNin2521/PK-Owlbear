@@ -3,10 +3,12 @@ import {useEffect, useState} from 'react';
 import { SearchApi } from '../../Logic/ApiController';
 import { SearchResult } from './SearchResult';
 import OBR from "@owlbear-rodeo/sdk";
+import { Detail } from './Detail';
 
 export const Search = () => {
     const [searchVal, setSearchVal] = useState("");
     const [searchResults, setSearchResults] = useState([]);
+    const [selectedResult, setSelectedResult] = useState(null);
 
     const onInputKeyUp = (e) => {
         if(e.key === 'Enter') {
@@ -19,14 +21,7 @@ export const Search = () => {
     };
 
     const onResultClick = (result) => {
-        localStorage.setItem("r", result.route);
-        localStorage.setItem("s", result.slug);
-        OBR.modal.open({
-            id: "rodeo.owlbear.pk-owlbear/detail",
-            url: "/#/detail",
-            height: 300,
-            width: 400,
-        });
+        setSelectedResult(result);
     };
 
     return (
@@ -42,6 +37,7 @@ export const Search = () => {
                     return <SearchResult key={index} result={item} onClick={onResultClick} />
                 })}
             </div>  
+            <Detail result={selectedResult} onHide={() => setSelectedResult(null)} />
         </div>
     )
 };

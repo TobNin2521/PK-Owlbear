@@ -1,0 +1,14 @@
+.basic-info {
+    display: flex;
+    flex-direction: column;
+}
+.attributes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.attribute {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

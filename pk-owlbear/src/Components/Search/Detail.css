@@ -1,0 +1,27 @@
+.detail {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 300ms;
+    background-color: #8a55bd;
+    max-height: calc(100vh);
+    overflow-y: auto;
+}
+.shown {
+    left: 0 !important;
+    transition: left 300ms;
+}
+.detail-top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5em;
+}
+.detail-top-bar div {
+    width: calc(100% - 4em);
+}
+.detail-top-bar svg {
+    height: 2em;
+}
