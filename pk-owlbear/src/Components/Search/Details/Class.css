@@ -1,0 +1,11 @@
+.archetypes {
+    padding: .5em;
+}
+.archetype {
+    white-space: break-spaces;
+    padding: .25em;
+}
+.class-table-row {
+    font-family: monospace;
+    white-space: break-spaces;
+}

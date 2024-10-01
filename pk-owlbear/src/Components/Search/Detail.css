@@ -25,3 +25,11 @@
 .detail-top-bar svg {
     height: 2em;
 }
+.basic-info {
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+.description {
+    white-space: break-spaces;
+}

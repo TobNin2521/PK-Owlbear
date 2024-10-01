@@ -1,7 +1,3 @@
-.basic-info {
-    display: flex;
-    flex-direction: column;
-}
 .attributes {
     display: flex;
     flex-direction: row;
@@ -11,4 +7,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.actions, .reactions, .bonus-actions, .legendary-actions {
+    padding: .5em;
+}
+.actions > b, .reactions > b, .bonus-actions > b, .legendary-actions > b {
+    margin-bottom: .5em;
+    display: block;
+}
+.action, .reaction, .bonus-action, .legendary-action {
+    padding: .25em;
 }
