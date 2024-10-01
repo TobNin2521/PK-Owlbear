@@ -10,15 +10,15 @@
     justify-content: space-around;
 }
 .search-box input {
-    width: calc(100% - 3em);
+    width: calc(100% - 5em);
     border: none;
     outline: none;
-    border-radius: .5em;
+    border-radius: 1em;
     background-color: #a680d1;
-    padding: .5em;
+    padding: 1em;
 }
 .search-box svg {
-    height: 1em;
+    height: 1.5em;
     align-self: center;
 }
 .search-results {
